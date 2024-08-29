@@ -33,4 +33,4 @@ def get_page(url: str) -> str:
     """ Makes a http request to a given endpoint
     """
     response = requests.get(url)
-    return response.textt
+    return response.text
